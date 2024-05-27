@@ -239,7 +239,7 @@ public class MyCookieManager extends ChannelDelegateImpl {
       cookieMap.put("isHttpOnly", null);
       cookieMap.put("path", null);
 
-      if (WebViewFeature.isFeatureSupported(WebViewFeature.GET_COOKIE_INFO)) {
+//      if (WebViewFeature.isFeatureSupported(WebViewFeature.GET_COOKIE_INFO)) {
         cookieMap.put("isSecure", false);
         cookieMap.put("isHttpOnly", false);
 
@@ -277,7 +277,7 @@ public class MyCookieManager extends ChannelDelegateImpl {
             cookieMap.put("path", cookieParamValue);
           }
         }
-      }
+//      }
 
       cookieListMap.add(cookieMap);
     }
